@@ -8,7 +8,7 @@ Check out my blog, [thinkjrs.dev](https://thinkjrs.dev), or my company's blog, [
 - [JSON Encoding Python Classes](https://github.com/thinkjrs/demo-code/tree/main/json-encode-python-classes)
 > A simple example of using the `json` module's custom encoder via adding basic iteration to a class.
 
-## License 
+## 📄 License 
 
 Check each individual directory for a LICENSE file. Most code samples should be MIT, if not all.
 
