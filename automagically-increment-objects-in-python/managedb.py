@@ -1,3 +1,8 @@
+"""
+managedb.py 
+
+Functionality to manage data for the Inventory class.
+"""
 import json
 import collections
 import logging
@@ -22,6 +27,8 @@ def save_local_inventory(
 def load_local_inventory(
     filename: str = "local-inventory.json",
 ) -> Union[Dict[str, Union[int, float]], None]:
+    """Load local inventory data and return a dictionary if
+    found."""
     filepath = f"{CWD}/{filename}"
     if not os.path.exists(filepath):
         raise FileNotFoundError(f"{filepath} does not exist.")
