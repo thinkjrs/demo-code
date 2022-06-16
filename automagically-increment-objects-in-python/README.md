@@ -37,6 +37,17 @@ pipenv shell
 
 ### Hack on it 
 
+This contains three main files: 
+
+- `counter.py`: An initial outline of usage for the `collections.Counter` data structure.
+- `inventory.py`: A module to house the `Inventory` class and other related items.
+- `managedb.py`: A simple local data store and retrieval for the `Inventory` class.
+
+It of course includes unit tests: 
+- `test_counter.py` 
+- `test_inventory.py` 
+- `test_managedb.py`
+
 ### Other goodies 
 
 This contains a `pyproject.toml` with basic pytest defaults we use @ [Tincre](https://tincre.com). To run
