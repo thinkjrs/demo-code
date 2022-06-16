@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | htmlcov
+  | \.pytest_cache
+)/
+'''
+
+[tool.pytest.ini_options]
+addopts = '-vv --cov=./ --cov-branch --cov-report term-missing'
