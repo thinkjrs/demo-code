@@ -50,7 +50,7 @@ class Inventory(collections.Counter):
 
             self.filepath = f"{os.getcwd()}/{self.filename}"
             if not result:
-                return
+                return  # pragma: no cover
             for key, val in result.items():
                 self[key] = val
             return self
